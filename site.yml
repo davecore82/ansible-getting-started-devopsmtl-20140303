@@ -1,0 +1,16 @@
+---
+
+# Apply common role on all hosts
+- hosts: all
+  roles:
+  - common
+
+# Apply webservers role on web servers
+- hosts: webservers
+  roles:
+  - webservers
+
+# Apply dbservers role on database servers
+- hosts: dbservers
+  roles:
+  - dbservers

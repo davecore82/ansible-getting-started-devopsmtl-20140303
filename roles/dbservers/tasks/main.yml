@@ -1,0 +1,5 @@
+---
+# tasks file for dbservers
+
+- name: install mysql
+  yum: name=mysql state=installed

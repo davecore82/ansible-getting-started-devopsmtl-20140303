@@ -1,0 +1,14 @@
+ansiblemaster	ansible_ssh_host=ec2-54-186-33-163.us-west-2.compute.amazonaws.com
+host5	ansible_ssh_host=ec2-54-186-32-145.us-west-2.compute.amazonaws.com
+host7	ansible_ssh_host=ec2-54-186-33-249.us-west-2.compute.amazonaws.com
+host8	ansible_ssh_host=ec2-54-186-33-194.us-west-2.compute.amazonaws.com
+host9	ansible_ssh_host=ec2-54-186-32-131.us-west-2.compute.amazonaws.com
+
+[dbservers]
+host1	ansible_ssh_host=ec2-54-186-32-178.us-west-2.compute.amazonaws.com
+
+[webservers]
+host2	ansible_ssh_host=ec2-54-186-36-92.us-west-2.compute.amazonaws.com
+host6	ansible_ssh_host=ec2-54-186-34-4.us-west-2.compute.amazonaws.com
+host3	ansible_ssh_host=ec2-54-186-31-226.us-west-2.compute.amazonaws.com
+host4	ansible_ssh_host=ec2-54-186-33-42.us-west-2.compute.amazonaws.com
